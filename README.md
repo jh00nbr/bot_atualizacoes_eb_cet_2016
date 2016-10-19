@@ -1,5 +1,5 @@
 # bot_atualizacoes_eb_cet_2016
-Bot responsável pelo acompanhamento das atualizacoes no site do processo seletivo CET 2016 - Cabo Especialista Temporario 2016 do exercito Brasileiro e me notificar pelo telegram.
+Bot desenvolvido por mim, responsável pelo acompanhamento das atualizacoes no site do processo seletivo CET 2016 - Cabo Especialista Temporario 2016 do exercito Brasileiro e me notificar pelo telegram.
 
 
 # Instale as dependencias
