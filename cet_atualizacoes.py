@@ -17,6 +17,7 @@ config = {"bot_key":"key_do_seu_bot","grupo_id":id_do_grupo(int),"url":"http://w
 bot = telepot.Bot(config['bot_key'])
 group = config['grupo_id']
 
+qnt_novidades = 10 # Quantidade de noticias em 19/10/2016
 
 def carregar_useragents():
     uas = []
@@ -27,7 +28,6 @@ def carregar_useragents():
     random.shuffle(uas)
     return uas
 
-
 def verificar_novidades():
     ua = random.choice(carregar_useragents())
     req = requests.get(config['url'],headers={'User-Agent': ua})
@@ -36,7 +36,6 @@ def verificar_novidades():
     conteudo_div = soup.find('div',{'class':'item-page'})
     atualizacoes = conteudo_div.findAll('a')
 
-    qnt_novidades = 10 # Quantidade de noticias em 19/10/2016
     novidades = []
 
     for novidade in atualizacoes:
@@ -52,8 +51,6 @@ def verificar_novidades():
         print novidade, " | Novidades: ", qnt_novidades
     else:
         print "[+] Sem novidades :("
-
-
 
 if __name__ == '__main__':
     while True:
