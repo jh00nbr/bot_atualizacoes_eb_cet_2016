@@ -9,3 +9,6 @@ pip install -r requeriments.txt
 
 No caso de utilização de terceiros, é necessário configurar os campos "bot_key" para a key criado do seu bot do telegram
 config = {"bot_key":"key_do_seu_bot","grupo_id":id_do_seu_grupo(int),"url":"http://www.11rm.eb.mil.br/index.php/ultimas-noticias/143-cet-cabo-especialista-temporario-2016"}
+
+
+<img src="tele_bot_img.png"></img>
