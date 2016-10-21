@@ -32,7 +32,8 @@ def verificar_novidades():
     soup = BeautifulSoup(req.content,'html.parser')
 
     conteudo_div = soup.find('div',{'class':'item-page'})
-    atualizacoes = conteudo_div.findAll('a')
+    if conteudo_div.findAll('a'):
+        atualizacoes = conteudo_div.findAll('a')
     
     qnt_novidades = 10 # Quantidade de noticias em 19/10/2016
     novidades = []
