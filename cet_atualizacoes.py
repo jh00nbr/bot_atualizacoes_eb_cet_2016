@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 # Twitter @jh00nbr
 
 __author__ = "Jhonathan Davi A.K.A jh00nbr"
-__email__ = "jhoon@rtfm-ctf.org"
+__email__ = "jdavi@insightsecurity.com.br"
 
 config = {"bot_key":"key_do_seu_bot","grupo_id":id_do_grupo(int),"url":"http://www.11rm.eb.mil.br/index.php/ultimas-noticias/143-cet-cabo-especialista-temporario-2016"}
 bot = telepot.Bot(config['bot_key'])
