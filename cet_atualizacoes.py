@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 
 # Esse Bot foi desenvolvido por mim para acompanhar as atualizacoes do processo seletivo CET 2016 - Cabo Especialista Temporario 2016 do exercito Brasileiro e me notificar pelo telegram.
 # Jhonathan Davi A.K.A jh00nbr / Insightl4b lab.insightsecurity.com.br
+# jh00nbr: http://jhonathandavi.com.br
 # Blog: lab.insightsecurity.com.br
 # Github: github.com/jh00nbr
 # Twitter @jh00nbr
